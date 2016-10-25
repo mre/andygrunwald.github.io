@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post-rsses on Andy Grunwald</title>
+    <link>http://andygrunwald.com/post/index.xml</link>
+    <description>Recent content in Post-rsses on Andy Grunwald</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Andy Grunwald</copyright>
+    <lastBuildDate>Tue, 25 Oct 2016 12:15:00 +0200</lastBuildDate>
+    <atom:link href="http://andygrunwald.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lesson learned from running a local meetup</title>
+      <link>http://andygrunwald.com/blog/lesson-learned-from-running-a-local-meetup/</link>
+      <pubDate>Tue, 25 Oct 2016 12:15:00 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/lesson-learned-from-running-a-local-meetup/</guid>
+      <description>&lt;p&gt;I organize the &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; for round about four years.
+A monthly meetup with focus on web engineering and new trends out of this area.
+I do this with a friend, 100% non-profit and motivated by our passion for open source, learning, meet motivated people and fun.&lt;/p&gt;
+
+&lt;p&gt;In the last time many people asked me about my experience about this, if i have some tips or what is important to start a new meetup (&lt;a href=&#34;https://twitter.com/andygrunwald/status/756192181677875200&#34;&gt;and i asked for it&lt;/a&gt;).
+In this post i summarize those and provide tips, tricks and my lesson learned.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;new-meetup-or-existing-one&#34;&gt;New meetup or existing one?&lt;/h2&gt;
+
+&lt;p&gt;If you consider to start a new meetup in your area about a topic you love, please do a little bit research in advance.
+Often there is already a meetup in an acceptable distance to your location about the same topic.
+&lt;a href=&#34;https://www.meetup.com/&#34;&gt;Meetup.com&lt;/a&gt; is a perfect platform to search for meetups in your location.&lt;/p&gt;
+
+&lt;p&gt;But why should you do this?
+The reason is simple: &lt;strong&gt;Most meetups won&amp;rsquo;t survive&lt;/strong&gt;.
+If you own a profile on &lt;a href=&#34;https://www.meetup.com/&#34;&gt;Meetup.com&lt;/a&gt; you will get emails if new meetups from your area will be founded.
+I get those mails every week.&lt;/p&gt;
+
+&lt;p&gt;It often goes the same way.
+They register and start a meetup.
+They add a first meetup date without a location and a topic (everything marked as TBD).
+First people joining the group.
+If you are lucky the first meetup takes place, but often this is also the last one.
+If you are unlucky the first meetup will be canceled due to no location or topic.
+A new meetup cadaver was created (sorry to be so harsh, but this is often the truth).&lt;/p&gt;
+
+&lt;p&gt;Many people want to start &lt;em&gt;their own meetup&lt;/em&gt;.
+If you found a meetup for your topic in your area, i suggest to visit it a few times and start to being an active member there.
+You can contribute in many ways, e.g. to hold a talk, spread the word, organize goodies or get in contact with the organizers and ask how to help.
+Often this adds more value than starting a new one with the same topic.&lt;/p&gt;
+
+&lt;p&gt;If there is no meetup like yours and you want to start a new one, take some time to think about it and if you have the time to run it.
+&lt;strong&gt;Running a meetup takes time and effort.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;choose-a-meetup-name-wisely&#34;&gt;Choose a meetup name wisely&lt;/h2&gt;
+
+&lt;p&gt;Many technology related meetups are named according a tool, framework or programing language. Examples are &lt;a href=&#34;https://www.meetup.com/sfugcgn/&#34;&gt;Symfony User Group Cologne&lt;/a&gt;, &lt;a href=&#34;https://www.meetup.com/Berlin-Mesos-User-Group/&#34;&gt;Berlin Mesos User Group&lt;/a&gt; or even the &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In my opinion this is not the best choice in the long run.
+If you start with this name you will have topics for the first 6 up to 9 meetups.
+After some time you will run out of speakers or topics dedicated to this topic.
+In most languages, framework or tools, the changerate is not so high to hold talks dedicated to those for a long time.
+In those cases you will start to use talks or topics that are connected to your meetup name.
+And this is fine as well, but might lead to confusion.&lt;/p&gt;
+
+&lt;p&gt;We (&lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt;) made exactly this experience.
+Further more: New people, who don&amp;rsquo;t like PHP as a language, don&amp;rsquo;t join meetups in the firts glance, because they think every talk is PHP related.
+For our meetups this is not true (but how should they know?).&lt;/p&gt;
+
+&lt;p&gt;We run meetups with talks about JavaScript, CSS projects, NoSQL databases, agile projectmanagement and topics that will be touched in web development.
+We struggled some time with the question if we should rename our meetup.
+We were affraid to lose our marketing (twitter, mouth to mouth).
+But now we decided to rename the &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; to Web Engineering Meetup Düsseldorf.&lt;/p&gt;
+
+&lt;h2 id=&#34;do-it-every-month&#34;&gt;Do it every month&lt;/h2&gt;
+
+&lt;p&gt;If you start a meetup, not many people will know it.
+This leads to quite less people at your first events (especially in non tech areas, i don&amp;rsquo;t talk about Berlin, Hamburg, San Francisco, &amp;hellip;).
+This is sad and you will feel sad.
+But you don&amp;rsquo;t have to be sad.
+This is normal.&lt;/p&gt;
+
+&lt;p&gt;If you run a good meetup people will come.
+People will know your meetup after some time.
+Mouth to mouth marketing needs time.
+&lt;strong&gt;If you run your meetup regularly (like every month), people will appreciate it.&lt;/strong&gt;
+This helps to stabilize the number of people per meetup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://andygrunwald.com/img/posts/lesson-learned-from-running-a-meetup/meetup-july-2016-people.jpeg&#34; alt=&#34;Prepared room of the July 2016 meetup&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the first year of the PHP Usergroup DUS, 4 up to 8 people showed up for the meetup.
+It was great.
+We were a small group and everyone knows everyone.
+After some time we were getting more known in the city.
+Now, after nearly 4 years, 45 up to 80 people show up every month.&lt;/p&gt;
+
+&lt;p&gt;Take your time.
+&lt;strong&gt;To build a well visites meetup you need time and stamina.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;don-t-do-it-alone&#34;&gt;Don&amp;rsquo;t do it alone&lt;/h2&gt;
+
+&lt;p&gt;To organize and run a meetup you need a time before and on the event day.
+Before you need to reserve a location, organize a speaker, check and order drinks, food and equipment.
+On the event day you need to mark the way to the location, create a small welcome presentation and prepare the room.
+After the crowd is gone you need (mostly) clean the things up.&lt;/p&gt;
+
+&lt;p&gt;You can do this alone, but i recommend: &lt;strong&gt;Don&amp;rsquo;t underestimate the effort to organize a meetup.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When the meetup is getting bigger and bigger the preparation is more stressful. Or sometimes you are not able to be on the meetup itself (due to private reasons).
+In this time one or two friends who help to organize this event can take over.&lt;/p&gt;
+
+&lt;p&gt;In the past i did it alone.
+I know how much work it is and how stressful it can be.
+After i asked two friends a meetup day is much more calm down.
+Everyone can take over one or two tasks.
+In this case: We scale our preparation over people.&lt;/p&gt;
+
+&lt;h2 id=&#34;choose-the-right-platform-for-announcements&#34;&gt;Choose the right platform for announcements&lt;/h2&gt;
+
+&lt;p&gt;People need to know when and where your next event takes place.
+&lt;strong&gt;A good platform can save you a lot of work here.&lt;/strong&gt;
+Personally i prefer &lt;a href=&#34;https://www.meetup.com/&#34;&gt;Meetup.com&lt;/a&gt;.
+And many other meetups do as well.&lt;/p&gt;
+
+&lt;p&gt;You set up a new event at &lt;a href=&#34;https://www.meetup.com/&#34;&gt;Meetup.com&lt;/a&gt; and they will send out emails, reminders, iCal entries, provide a comment section, a place for your sponsors, configure a payment for your event and much much more.
+A platform built for Meetups. Obvious, right?&lt;/p&gt;
+
+&lt;p&gt;Even if this platform costs money as a meetup organizer it is worth it.
+Ask a few companies who are active in your meetup topic.
+Mostly they are happy to sponsor you this meetup payment in exchange for a sponsor logo on the meetup page.&lt;/p&gt;
+
+&lt;p&gt;Some other meetups choose twitter or &lt;a href=&#34;https://www.xing.com/&#34;&gt;XING&lt;/a&gt; as platform (like &lt;a href=&#34;https://www.xing.com/communities/groups/rheinjug-duesseldorfer-java-user-group-1dd6-1067296&#34;&gt;Düsseldorfer Java User Group&lt;/a&gt;).
+Be aware, not everyone is a fan of twitter or use it at all.
+This means they would miss your announcements.
+Email is still the best way of communication for the most people.&lt;/p&gt;
+
+&lt;p&gt;The PHP Usergroup DUS started with &lt;a href=&#34;https://www.xing.com/&#34;&gt;XING&lt;/a&gt; as platform (a kind of german &lt;a href=&#34;https://www.linkedin.com/&#34;&gt;LinkedIn&lt;/a&gt;).
+It worked quite well for ~1 &lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt; years.
+But we mostly attracted german people, because XING is a german network.
+After a switch to Meetup more and more international people joined our group.
+Our userbase grew and we (the organizers) had less work to do, because XING is lacking a lot of useful features.&lt;/p&gt;
+
+&lt;h2 id=&#34;choose-the-right-location&#34;&gt;Choose the right location&lt;/h2&gt;
+
+&lt;p&gt;A good / usable location is important for the meetup and the location depends on the meetup content.
+If you plan to have a speaker + presentation, the pub at the next corner might be the wrong place.
+&lt;strong&gt;Most of the tech meetup i know are in office locations of a tech company.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A small or big conference room is a perfect start, because they are equipped well with a table, chairs and a beamer.&lt;/strong&gt;
+If your grow and your need more place, have a look at local co working spaces.
+A lot of them are willing to sponsor you a location / their main hall for your meetup.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://andygrunwald.com/img/posts/lesson-learned-from-running-a-meetup/meetup-july-2016-room.jpeg&#34; alt=&#34;Prepared room of the July 2016 meetup&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With the &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we started in a conference room from &lt;a href=&#34;https://www.twt.de/&#34;&gt;TWT&lt;/a&gt; (a web agency from Düsseldorf).
+After some time we moved to the conference rooms of &lt;a href=&#34;http://www.trivago.com/&#34;&gt;trivago&lt;/a&gt;, because the organizers switched their work place.
+After ~1 year at trivago, the conference room was getting crowded.
+Luckily trivago offers a big kitchen with everything we need (beamer, audio, chairs, fridge, etc.) for ~200 people.
+Other companies in our area doing exactly this as well (like &lt;a href=&#34;http://www.sipgate.de/&#34;&gt;sipgate&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pro tip&lt;/strong&gt;: If you found a location, don&amp;rsquo;t forget to mark the way to the meetup with paper signs. Not everyone knows who the company is located or where they can find the correct room.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pro tip 2&lt;/strong&gt;: If you are looking for a meetup location in Düsseldorf (Germany), Leipzig (Germany), Amsterdam (Netherlands) or Palma de Mallorca (Spain) get in contact with me.&lt;/p&gt;
+
+&lt;h2 id=&#34;video-and-audio&#34;&gt;Video and Audio&lt;/h2&gt;
+
+&lt;p&gt;Sometimes people are not able to join your meetup, but they want to see the talk.
+For this video recording is perfect.
+Some meetups offer this.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we don&amp;rsquo;t record the talks.
+We tried it, but we are (right now) not able put the effort into the video editing to reach the quality we want.
+You need to record the speaker, the audio and the speakers screen for the slides, cut all together, keep it in sync and upload it to a portal like YouTube or Vimeo.
+&lt;strong&gt;Do not underestimate the necessary effort to record your meetups in a high quality.&lt;/strong&gt;
+People will not have fun to watch a video with low quality.&lt;/p&gt;
+
+&lt;p&gt;Audio is a different topic.
+&lt;strong&gt;Depending on the size of your room it might be suitable to offer a proper audio setup with microphones.&lt;/strong&gt;
+If you a running your meetup in a small conference room with ~15 people you oft don&amp;rsquo;t need this.
+But if you use a bigger room with &amp;gt;30 people, think about it.
+The benefits are clear: The speaker don&amp;rsquo;t have to shout and the people will understand the words of the speaker even better.&lt;/p&gt;
+
+&lt;h2 id=&#34;date-of-the-meetup&#34;&gt;Date of the meetup&lt;/h2&gt;
+
+&lt;p&gt;This is a difficult topic.
+&lt;strong&gt;I recommend to held meetups during the week and not on weekends.&lt;/strong&gt;
+The best days are Tuesday, Wednesday or Thursday.
+On the weekends you have your private life, friends and familiy.
+On Monday there is so much to do at work that most people are not motivated to attend a meetup.
+On Friday many people will or want to leave early in the weekend.&lt;/p&gt;
+
+&lt;p&gt;On these days most of the meetups run in a plannable interval like &lt;em&gt;every first Tuesday in a month&lt;/em&gt; or &lt;em&gt;the last Thursday in a month&lt;/em&gt;.
+This is fine and has a lot of advantages like planning of dates, reservations of the location and you are able to avoid collisions with other meetups in your near area (if they choose a different interval than you).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;But i prefer a different pattern: Be flexible with your date.&lt;/strong&gt;
+At &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we prefer the Thursday to hold our meetup.
+But we don&amp;rsquo;t have a specific Thursday (like every second in a month).
+We specify our date according the availibility of the speaker.
+&lt;strong&gt;We ask the speaker when they have time and at what Thursday we will fit into their schedule.&lt;/strong&gt;
+With this way it is easier to get speaker and they are not fixed to a specific pattern.&lt;/p&gt;
+
+&lt;p&gt;But this way has disadvantages, too.
+If you don&amp;rsquo;t own your meetup location, this pattern is hardly doable.
+Not every location is available at every Thursday.
+So planning ahead is a must.
+Collisions with other meetups in your local area will happen.
+But those will happen anyway (even with the pattern interval described above), when the overall meetup community in your area grow.
+In bigger cities like Berlin, Hamburg or San Francisco this is already the situation.
+There are meetups every day.
+In Düsseldorf this is coming right now, but we talked to a few meetup organizers and everyone is ok with this (we are friends and support each other).
+&lt;strong&gt;Last but not least: You will never find a date that fits to everyone.
+There are people who are not able to join, independent which date you choose.&lt;/strong&gt;
+You have to get used to it, but this is fine.&lt;/p&gt;
+
+&lt;h2 id=&#34;organize-a-speaker-or-meetup-topic&#34;&gt;Organize a speaker or meetup topic&lt;/h2&gt;
+
+&lt;p&gt;If you start with your meetup, you will find a few speakers quite quick.
+To find a speaker for every meetup (over a long term) is not an easy task.&lt;/p&gt;
+
+&lt;p&gt;The speaker needs to be in your area / city (living, job related or for a visit).
+He or she needs to offer a talk that fits into your meetup topic and speaks your language (of the country of english).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Start to organize a meetup early and contact possible speakers (e.g. 2 month in advance).&lt;/strong&gt;
+Many people have stress and less time.
+They need time to answer and to plan.
+And maybe you need to send multiple emails back and fourth until you are able to confirm and setup the meetup.&lt;/p&gt;
+
+&lt;p&gt;Most of the meetups run one talk per evening for a length about ~45 minutes.
+In the last year i started to play around with this concept a little bit at &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt;.
+On some evenings we run three talks each 20 minutes long.
+On some evenings two talks with 30 minutes each.
+And this works quite well.
+It is easier to find multiple speakers who are able to speak for a shorter time frame about a topic instead of one speaker that talks for 45 minutes.
+Even bigger conferences adapting this pattern more and more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://andygrunwald.com/img/posts/lesson-learned-from-running-a-meetup/meetup-april-2016-matthias-endler.jpeg&#34; alt=&#34;Matthias Endler on the April 2016 meetup&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During a meetup i talk to a lot of people about public speaking.
+I tell them that i provide a stage at this meetup where you can test things out.
+&lt;strong&gt;Try to motivate people from your community and local meetup to get on stage for the first time.&lt;/strong&gt;
+A meetup is the perfect place for this, because it is a small location with a small amount of people.
+To get on stage and talk about a topic the first time is an overhelming experience.
+Many people have to leave their comfort zone for this, but this is exactly the time where you learn the most.&lt;/p&gt;
+
+&lt;p&gt;Most of the tech people have the problem that they think their knowledge is well known to others.
+Or they are exited about a topic, they dive in and get known to it and after they know how it works, they are bored.
+They think that everyone knows about this, because they know it.
+I have this problem, too.
+But i know that this is a lie.
+Everyone knows something that is interesting for others.
+&lt;strong&gt;You don&amp;rsquo;t need to talk about the newest hipster technologies out there.
+Most of the people are interested in real life challenges from your day to day work.
+Talk to them and offer them a stage to test things out.&lt;/strong&gt;
+And because you (as an organizer) talk about this, you have to prove it and get on stage from time to time your self.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we get speakers via the way described above or ask people around at &lt;a href=&#34;https://twitter.com/PHPUGDUS&#34;&gt;twitter&lt;/a&gt;.
+Sometimes we get contacts for speakers from other meetups or ask speakers from conferences near by if they are motivated to speak.
+If your meetup is well known, sometimes speaker will contact you, because they knew that it is possible to test bigger conference talks at local usergroups and improve them later.&lt;/p&gt;
+
+&lt;p&gt;An alterntive to talks are workshops or hand on sessions.
+You will be suprised how many people will join to learn something new for free.
+Start with a &lt;a href=&#34;https://git-scm.com/&#34;&gt;Git&lt;/a&gt; workshop and try it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Play around with the concept and content of the meetup.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;drinks-and-food&#34;&gt;Drinks and food&lt;/h2&gt;
+
+&lt;p&gt;Most of the meetups offer drinks and / or food.
+This is great, because many attendees are joining you directly after their full time job without a stop by at home.
+They are hungry and thirsty.
+This is a good start for a good evening and chatting with a beer or a coke is much easier ;)&lt;/p&gt;
+
+&lt;p&gt;Like the location ask well known companies in your area to sponsor this.
+If you run a PHP meetup, ask a web agency, etc.
+Depending on the amount of people and what you order per meetup it costs ~100 up to ~250 €.
+A few pizzas, salads, beer and non alcoholic drinks are enough.
+This is not a must, but makes it easier.&lt;/p&gt;
+
+&lt;p&gt;At the &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we provide drinks and a few sandwiches.
+They are available for the employees already.
+So we were lucky and trivago is able to sponsor everything for us.&lt;/p&gt;
+
+&lt;h2 id=&#34;sponsoring-and-goodies&#34;&gt;Sponsoring and goodies&lt;/h2&gt;
+
+&lt;p&gt;If your meetup has a decent amount of people (&amp;gt; 30 people) joining you every month, &lt;strong&gt;many companies are willing to deliver you goodies.&lt;/strong&gt;
+&lt;strong&gt;Those goodies can be a nice addition for the attendees.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It only requires a few emails from your side.
+Just drop a request to the company, explain what you do, how many people are joining and what are common topics for your meetup.
+I recommend to run a few meetups before you ask to provde that you are stable.
+This helps to get a positive answer.&lt;/p&gt;
+
+&lt;p&gt;Here are a few companies i know that offer meetup sponsoring:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://community.github.com/&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/support/community/#section=communities&#34;&gt;JetBrains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://t3n.de/&#34;&gt;t3n&lt;/a&gt; (German digital magazine)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com/&#34;&gt;DigitalOcean&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;welcome-and-basic-instructions&#34;&gt;Welcome and basic instructions&lt;/h2&gt;
+
+&lt;p&gt;You have your meetup planned and they day is there.
+People are joining your room, getting a drink and you are ready to start.
+&lt;strong&gt;Start with a small 2 or 3 minute long welcome presentation.&lt;/strong&gt;
+This can be helpful for people who are the first time here.
+Explain a few organisational things, so that the people don&amp;rsquo;t need to ask.&lt;/p&gt;
+
+&lt;p&gt;Content that should be part of the welcome presentation:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Name of the meetup&lt;/li&gt;
+&lt;li&gt;Wlan access&lt;/li&gt;
+&lt;li&gt;Office / Location rules (what is allowed, what not?)&lt;/li&gt;
+&lt;li&gt;Where are the toilets&lt;/li&gt;
+&lt;li&gt;Announcements of other appointments like
+
+&lt;ul&gt;
+&lt;li&gt;other meetups in the area&lt;/li&gt;
+&lt;li&gt;conferences / hackathons near by&lt;/li&gt;
+&lt;li&gt;your next meetup&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Speaker and Topic today&lt;/li&gt;
+&lt;li&gt;If you offer a socialising after the talk or if the meetup ends directly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After this you can hand over to the speaker, the talk will start and you will relax.&lt;/p&gt;
+
+&lt;h2 id=&#34;socialising&#34;&gt;Socialising&lt;/h2&gt;
+
+&lt;p&gt;Before the meetup starts people will join your location.
+Some people join early, some late.
+Offer them drinks (or the way where they can find drinks to get some on their own).
+&lt;strong&gt;Say hello and introduce yourself.
+Especially people who are joining alone appreciate it, because they know a person already.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After the talk or presentation many people will leave the location.
+But some people stay to socialise even more.
+They start chatting with the speaker or about the content of the presentation.
+&lt;strong&gt;Be aware: Sometimes it can get late.&lt;/strong&gt;
+Some people are chatting and chatting and (nearly) don&amp;rsquo;t want to leave.
+If you need to get up early next day, set a fixed end time for your meetup.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A positive side effect of socialising&lt;/strong&gt;: Your network will grow with more and more meetups.
+This can be useful in the future (e.g. to find speaker).&lt;/p&gt;
+
+&lt;h2 id=&#34;respect&#34;&gt;Respect&lt;/h2&gt;
+
+&lt;p&gt;This is the most important point.
+&lt;strong&gt;Be respectful to each other.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;People will join your meetup to get to know new people, new topics, new areas and get new experience.
+Not everyone is on the same page.
+Not everyone has the same level of knowledge.
+&lt;strong&gt;But what everyone has in common: They are motivated to learn and to meet new people.
+Otherwise they would not join your meetup in their spare time.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You might ask yourself: &lt;em&gt;Why does he mention this?&lt;/em&gt;
+Because i met people at a meetup they said something like &lt;em&gt;Next time i won&amp;rsquo;t join. This talk was fucking boring and the speaker was shit. And i hate this topic anyway.&lt;/em&gt;
+I immediately left the conversation.
+In my opinion there was someone who put effort in preparation and leaving his / her comfort zone to tell the audience about a topic.
+And you need to appreciate it, because this is not easy and is not done in 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;After i talk i spent a few minutes with the speaker, say thank you for his / her time and effort and provide feedback. What was good? What can be improved?
+Sometimes i ask the speaker if he / she is interested in speaking at a conference or at other meetups.
+Then i forward the talk to some organizers around.&lt;/p&gt;
+
+&lt;p&gt;Please take this (and much more around this topic) into your mind.
+ONe way is to setup a &lt;a href=&#34;https://en.wikipedia.org/wiki/Code_of_conduct&#34;&gt;Code of Conduct&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;money-and-non-profit&#34;&gt;Money and non profit&lt;/h2&gt;
+
+&lt;p&gt;Some meetups are backed by money and they are able to pay speaker.
+With this they are able to hire bigger speakers, pay them a fee, accommodation costs and attract more people.
+Some meetups charge money for the entrance.
+For german meetups this is not common.
+I often see this in US meetups.
+Both is completely fine.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&#34;https://www.meetup.com/PHP-Usergroup-Duesseldorf/&#34;&gt;PHP Usergroup Duesseldorf&lt;/a&gt; we try to keep money at as much as possible.
+We are a community based meetup that is organized out of people who love what they do.
+The only driver is passion and motivation to learn more.
+I personally think that money will make everything more complicated (this is only my opinion).
+Up to know (experience from ~4 years) this worked quite well.
+Sponsoring like food, drinks, locations, goodies, etc. is a different thing.
+&lt;strong&gt;Think about it if you are able to back your meetup with money or not.&lt;/strong&gt;
+&lt;strong&gt;This can lead to a big advantage if you are able to pay speakers.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;and-much-more&#34;&gt;and much more &amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;I am sure that this is not the complete list of things you need to think about when you start and run a meetup.
+But this are the most common things.&lt;/p&gt;
+
+&lt;p&gt;Once more points come into my mind i will update this post (or start a new one if i got many new points).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Let me know if these points were helpful for you or if you share the same or a different opinion.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;why-we-do-this&#34;&gt;Why we do this?&lt;/h2&gt;
+
+&lt;p&gt;You might ask why we do all this. Put all the effort and burden on our shoulders to organize events like monthly meetups.
+The answer is simple: &lt;strong&gt;Because of you&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We love to work with motivated people.&lt;/li&gt;
+&lt;li&gt;We love to meet people who are eager to learn.&lt;/li&gt;
+&lt;li&gt;We love to learn about new topics.&lt;/li&gt;
+&lt;li&gt;Wo love to have fun conversations with the same kind of human as we are.&lt;/li&gt;
+&lt;li&gt;We love to see people have fun on events we created.&lt;/li&gt;
+&lt;li&gt;And we love to see people grow when they are the first time on stage.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Start getting involved in a meetup.
+As a visitor or an organizer.
+You will see it is a great experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Side story&lt;/em&gt;: We had an attendee who came from Egypt and was on a business trip in Germany. He visited our meetup and on this date we offered a introduction into &lt;a href=&#34;https://www.meetup.com/de-DE/PHP-Usergroup-Duesseldorf/events/219616098/&#34;&gt;Git with a small hands on session&lt;/a&gt;. He had a lot of fun. After some weeks i recieved an email from him. He told me that he went back to Cairo, Egypt and started his own meetup to teach people about Git. He said that his first event was a great success. Those stories keeps us motivated.&lt;/p&gt;
+
+&lt;h2 id=&#34;more-to-read&#34;&gt;More to read&lt;/h2&gt;
+
+&lt;p&gt;If you still want to read more about this topic have a look at &lt;a href=&#34;https://github.com/corylanou/go-meetup&#34;&gt;Running a Go Meetup&lt;/a&gt; or &lt;a href=&#34;http://mikeschinkel.com/blog/25-best-practices-for-meetup-organizers/&#34;&gt;25 Best Practices for Meetup Organizers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;you-run-a-meetup&#34;&gt;You run a meetup?&lt;/h2&gt;
+
+&lt;p&gt;If you run a meetup or visit meetups on a regular bases, feel free to share your lesson learned in the comments.
+I would  love to read them.&lt;/p&gt;
+
+&lt;h2 id=&#34;typo&#34;&gt;Typo?&lt;/h2&gt;
+
+&lt;p&gt;Found a bug in this article? Feel free to apply a pull request at &lt;a href=&#34;https://github.com/andygrunwald/andygrunwald.github.io/blob/develop/content/post/lesson-learned-from-running-a-meetup.md&#34;&gt;&lt;em&gt;Lesson learned from running a local meetup&lt;/em&gt;&lt;/a&gt; at github.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Resources to learn Go(lang)</title>
+      <link>http://andygrunwald.com/blog/resources-to-learn-golang/</link>
+      <pubDate>Sat, 20 Jun 2015 10:42:38 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/resources-to-learn-golang/</guid>
+      <description>&lt;p&gt;Since some time i am fascinated by the &lt;a href=&#34;http://golang.org/&#34;&gt;go programing language&lt;/a&gt; launched by Google in 2009.
+I am a person with a scripting language background (&lt;a href=&#34;http://php.net/&#34;&gt;PHP&lt;/a&gt; and &lt;a href=&#34;https://www.python.org/&#34;&gt;Python&lt;/a&gt;) and was motivated to learn a new programing language.&lt;/p&gt;
+
+&lt;p&gt;I chose go(lang), because i wanted to do some system programing with concurrency support.&lt;/p&gt;
+
+&lt;p&gt;Because i share my love with my friends and colleagues i am often asked &lt;em&gt;How do i start with Go?&lt;/em&gt; or &lt;em&gt;Do you got some good resources to learn Go?&lt;/em&gt;.
+This article is about which resources i used to learn Go.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The &lt;a href=&#34;http://tour.golang.org/&#34;&gt;A Tour of Go&lt;/a&gt; is the best start. It provides an overview about the syntax and the features in a short way.&lt;/li&gt;
+&lt;li&gt;The book &lt;a href=&#34;http://www.goinactionbook.com/&#34;&gt;Go in Action&lt;/a&gt; is a good recommendation to get some backgrounds, best practices, pitfalls and usecases for language features. Even it is a MEAP this is worth to read.&lt;/li&gt;
+&lt;li&gt;The guide for golang: &lt;a href=&#34;https://golang.org/doc/effective_go.html&#34;&gt;Effective Go&lt;/a&gt;. It describes all features with backgrounds and examples.&lt;/li&gt;
+&lt;li&gt;Read foreign go code of projects like &lt;a href=&#34;https://github.com/docker/docker&#34;&gt;docker&lt;/a&gt;, &lt;a href=&#34;https://github.com/coreos/etcd&#34;&gt;etcd&lt;/a&gt; or &lt;a href=&#34;https://github.com/kelseyhightower/terminus&#34;&gt;termius&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And of course: Next to this &lt;strong&gt;start your own Go project&lt;/strong&gt;.
+I recommend to start with it after you finished the &lt;a href=&#34;http://tour.golang.org/&#34;&gt;A Tour of Go&lt;/a&gt; and during reading &lt;a href=&#34;http://www.goinactionbook.com/&#34;&gt;Go in Action&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some ideas for a project:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A small rest API (http server)&lt;/li&gt;
+&lt;li&gt;A small chat client (sockets)&lt;/li&gt;
+&lt;li&gt;A small web / mailinglist crawler (concurrency)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further useful resources are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gobyexample.com/&#34;&gt;Go by Example&lt;/a&gt; for example code how to use different features&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangweekly.com/&#34;&gt;Golang weekly&lt;/a&gt; to keep updates of the Go community by email&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.reddit.com/r/golang&#34;&gt;/r/golang&lt;/a&gt; to follow the reddit community about Go&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/golang-nuts&#34;&gt;golang-nuts&lt;/a&gt; the official golang user mailinglist&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/avelino/awesome-go&#34;&gt;avelino/awesome-go&lt;/a&gt; to get a curated list of awesome Go frameworks, libraries and software&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And now: &lt;strong&gt;Have fun&lt;/strong&gt; during learn a new programing language!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://news.ycombinator.com/item?id=9751121&#34;&gt;Thread at Hacker News&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TYPO3-Analytics goes Jacobine</title>
+      <link>http://andygrunwald.com/blog/typo3-analytics-goes-jacobine/</link>
+      <pubDate>Tue, 22 Apr 2014 12:45:13 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/typo3-analytics-goes-jacobine/</guid>
+      <description>&lt;p&gt;For quite some time i was looking for a new name for an open source project of mine: &lt;em&gt;TYPO3-Analytics&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am (sadly) not creative in naming things or painting.
+The biggest part of creativity is during development and programming.
+To find a good name which sounds nice and got a relation to a tool, task or goal is (in my point of view) very difficult.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;There are some names of projects i like, because the sound good like &lt;a href=&#34;https://flynn.io/&#34;&gt;Flynn.io&lt;/a&gt; or &lt;a href=&#34;http://hood.ie/&#34;&gt;hood.ie&lt;/a&gt;.
+At 3rd March 2014 i wrote a blogpost about this challenge to use the power of the community: TYPO3-Analytics is looking for a new name - suggestions welcome!&lt;/p&gt;
+
+&lt;p&gt;Next to this blog post i got on my girlfriends nerves with the recurring questions like &amp;ldquo;What do you think about name x? Or y?&amp;rdquo;.
+And i asked my twitter timeline many times and wondered how for example Apache chose names for their product.
+They &lt;a href=&#34;http://www.apache.org/dev/project-names.html&#34;&gt;got rules for product names&lt;/a&gt;, but i did not found a resource who describes the story about this names.
+&lt;a href=&#34;https://twitter.com/irnnr&#34;&gt;Ingo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/irnnr/status/449367546211221504&#34;&gt;mentioned&lt;/a&gt; that &lt;a href=&#34;https://tika.apache.org/&#34;&gt;Tika&lt;/a&gt; is one of the project founders’ kid’s toy pet’s name.
+&lt;a href=&#34;https://twitter.com/shirleman&#34;&gt;Scott&lt;/a&gt; &lt;a href=&#34;https://twitter.com/shirleman/status/449614357022773248&#34;&gt;suggested&lt;/a&gt; Donk, because it was his stuffed donkey&amp;rsquo;s name as a kid :D
+Anyway.&lt;/p&gt;
+
+&lt;p&gt;I thought a lot about possible names and talked to many people.
+Some of the ideas were &lt;em&gt;Vizben&lt;/em&gt;, &lt;em&gt;Benvis&lt;/em&gt;, &lt;em&gt;Mevis&lt;/em&gt;, &lt;em&gt;Pinocchio&lt;/em&gt;, &lt;em&gt;Gepetto&lt;/em&gt;, &lt;em&gt;Viva con analysis&lt;/em&gt;, &lt;em&gt;Knock.io&lt;/em&gt; and so on.
+Nothing special.
+Nothing &amp;ldquo;good&amp;rdquo; enough.
+Nothing i like at the first time.
+So i continued my search.
+During a lunch break i talked to my colleagues &lt;a href=&#34;https://twitter.com/janvanthoor&#34;&gt;Jan&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/milchjieper&#34;&gt;Dominik&lt;/a&gt; about this topic.
+Jan mentioned that i might have to chose a general topic which i focus on for the name search.
+He suggested mining.
+I liked the idea and started my research in the mining area &amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-new-name-jacobine&#34;&gt;The new name: &lt;em&gt;Jacobine&lt;/em&gt;&lt;/h2&gt;
+
+&lt;p&gt;I was born and live in &lt;a href=&#34;http://en.wikipedia.org/wiki/Duisburg&#34;&gt;Duisburg, Germany&lt;/a&gt;.
+Duisburg is a small town in &lt;a href=&#34;http://en.wikipedia.org/wiki/North_Rhine-Westphalia&#34;&gt;North Rhine-Westphalia&lt;/a&gt; and part of the Ruhrgebiet.
+Duisburg is very popular for its steel industry and coal mining (see the &lt;a href=&#34;http://en.wikipedia.org/wiki/Landschaftspark_Duisburg-Nord&#34;&gt;Landschaftspark Duisburg-Nord&lt;/a&gt; or a &lt;a href=&#34;http://de.wikipedia.org/wiki/Liste_von_Bergwerken_in_Nordrhein-Westfalen#Duisburg&#34;&gt;list of coal mines in Duisburg&lt;/a&gt;).
+In 1855 an english company started to build a new mine called &lt;em&gt;Jacobine&lt;/em&gt;.
+It was located in Duisburg-Meiderich near to &lt;a href=&#34;http://en.wikipedia.org/wiki/Oberhausen&#34;&gt;Oberhausen&lt;/a&gt;.
+In 1859 the mine have to shutdown, because it was damaged by water.
+11 years later, in 1870, the mine was repaired.
+In 1871 the mine was put into production again under a new name Schacht 1.
+Schacht 1 was part of the bigger mine &lt;a href=&#34;http://de.wikipedia.org/wiki/Zeche_Westende&#34;&gt;Westende&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Dominik mentioned that the name &lt;em&gt;Jacobine&lt;/em&gt; got a bad taste, because it was damaged and has to be shutdown.
+Dominik is right, but the mine was repaired and put into production again.
+I would agree Dominik that &lt;em&gt;Jacobine&lt;/em&gt; is a bad name for a management software or something in this area.
+But we do not build a management software ;)
+And one important fact: I like the new name.
+It is unique in the software world (as far as i know), it got a relation to the main area of the tool we build ([data]mining) and a relationship to my lovely town Duisburg (but of course contributor from other cities and countries are welcome as well :)).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;So lets try to get not damaged by water :)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;migrate-your-typo3-analytics-clone&#34;&gt;Migrate your TYPO3-Analytics clone&lt;/h2&gt;
+
+&lt;p&gt;If you got an existing clone of the project with the old name TYPO3-Analytics you have to migrate the git repository to keep up to date.
+Here we go:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ git remote -v
+origin git@github.com:andygrunwald/TYPO3-Analytics.git (fetch)
+origin git@github.com:andygrunwald/TYPO3-Analytics.git (push)
+
+$ git remote set-url origin git@github.com:andygrunwald/Jacobine.git
+
+$ git remote -v
+origin git@github.com:andygrunwald/Jacobine.git (fetch)
+origin git@github.com:andygrunwald/Jacobine.git (push)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Please pay attention to the name of your remote (origin or maybe &lt;a href=&#34;https://help.github.com/articles/syncing-a-fork&#34;&gt;upstream&lt;/a&gt;) and the protocol you use (&lt;em&gt;git://&lt;/em&gt; or &lt;em&gt;https://&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;The ecosystem around &lt;em&gt;Jacobine&lt;/em&gt; (the &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics-Web&#34;&gt;web frontend&lt;/a&gt;, the &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics-Vagrant&#34;&gt;vagrant machine&lt;/a&gt; and the &lt;a href=&#34;https://github.com/andygrunwald/chef-typo3analytics&#34;&gt;chef cookbook&lt;/a&gt;) will be renamed in the next days.&lt;/p&gt;
+
+&lt;p&gt;If you got any kind of problems or need help to migrate your clone i will help you as much as possible.
+Just add a comment, send a tweet (&lt;a href=&#34;https://twitter.com/andygrunwald&#34;&gt;@andygrunwald&lt;/a&gt;) or send me an email.&lt;/p&gt;
+
+&lt;p&gt;PS: Thanks to all people who was involved to find a new name and attend all the discussions!
+PPS: And thanks to &lt;a href=&#34;https://twitter.com/georg_ringer&#34;&gt;Georg&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/ffffux&#34;&gt;Lena&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/benvantende&#34;&gt;Ben&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/misprintedtype&#34;&gt;Ola&lt;/a&gt; who attend my &lt;a href=&#34;https://twitter.com/andygrunwald/status/458286697416245249&#34;&gt;last survey on twitter&lt;/a&gt; regarding &lt;em&gt;Jacobine&lt;/em&gt; or &lt;em&gt;Jacob&lt;/em&gt; (self made abbreviation for &lt;em&gt;Jacobine&lt;/em&gt;) - 3:1 for &lt;em&gt;Jacobine&lt;/em&gt;!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TYPO3-Analytics: Release of version v0.1.0</title>
+      <link>http://andygrunwald.com/blog/typo3-analytics-release-of-version-v0.1.0/</link>
+      <pubDate>Sat, 19 Apr 2014 12:51:03 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/typo3-analytics-release-of-version-v0.1.0/</guid>
+      <description>&lt;p&gt;The project grows and grows :)
+The next release of &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.1.0&#34;&gt;TYPO3-Analytics in version v0.1.0&lt;/a&gt; is out!
+This release covers various nice features, enhancements and bugfixes.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Get the new version now! Its hot: &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.1.0&#34;&gt;TYPO3-Analytics v0.1.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;But what was done in the last &lt;a href=&#34;http://www.timeanddate.com/date/durationresult.html?d1=15&amp;amp;m1=2&amp;amp;y1=2014&amp;amp;d2=19&amp;amp;m2=4&amp;amp;y2=2014&amp;amp;ti=on&#34;&gt;65 days&lt;/a&gt; and &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/commits/v0.1.0&#34;&gt;109 commits&lt;/a&gt;?
+Some numbers (from the &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/compare/v0.0.1...v0.1.0&#34;&gt;github compare view&lt;/a&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;70 changed files&lt;/li&gt;
+&lt;li&gt;5,934 line additions&lt;/li&gt;
+&lt;li&gt;1,297 line deletions&lt;/li&gt;
+&lt;li&gt;1 contributor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here is a list of the most important changes.&lt;/p&gt;
+
+&lt;h2 id=&#34;main-changes&#34;&gt;Main changes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Added a changelog&lt;/li&gt;
+&lt;li&gt;[Consumer Download\HTTP] Added error check for rename operation&lt;/li&gt;
+&lt;li&gt;[Consumer Analysis\PHPLoc] Parse output directly without writing a xml file to disk&lt;/li&gt;
+&lt;li&gt;[Consumer Analysis\CVSAnaly] Moved cvsanaly settings to seperate config file&lt;/li&gt;
+&lt;li&gt;[Consumer] Centralized context generation for logging&lt;/li&gt;
+&lt;li&gt;[Consumer Analysis\CVSAnaly] Set writable path&lt;/li&gt;
+&lt;li&gt;Added (useful) information to composer.json about the project&lt;/li&gt;
+&lt;li&gt;[Consumer] Adjusted all consumer to use the new symfony/process component&lt;/li&gt;
+&lt;li&gt;Added symfony/process component and created a ProcessFactory&lt;/li&gt;
+&lt;li&gt;Updated monolog from 1.7.0 to 1.8.0 and updated various dependencies&lt;/li&gt;
+&lt;li&gt;Removed sudo-usage of system calls&lt;/li&gt;
+&lt;li&gt;Changes auto_delete default option for queues to false&lt;/li&gt;
+&lt;li&gt;[Logging] No new line after every log entry. One line per log entry&lt;/li&gt;
+&lt;li&gt;[Consumer] Adjusted all consumer to use the new structure of DLX&lt;/li&gt;
+&lt;li&gt;[Consumer] Added a method to reject a message and reworked consumer to reject messages&lt;/li&gt;
+&lt;li&gt;[Consumer / Producer] Added support for dead lettering of RabbitMQ and reworked setup of queues and exchanges&lt;/li&gt;
+&lt;li&gt;[Consumer Analysis\GithubLinguist] Fixed fatal error during logging&lt;/li&gt;
+&lt;li&gt;Added a bunch of comments with message formats to every consumer&lt;/li&gt;
+&lt;li&gt;Added class comments to all Commands&lt;/li&gt;
+&lt;li&gt;[Producer ReviewTYPO3OrgCommand] Removed, because this is obsolete&lt;/li&gt;
+&lt;li&gt;[Consumer Download\HTTP] Removed TYPO3 dependency in file name&lt;/li&gt;
+&lt;li&gt;Added File object&lt;/li&gt;
+&lt;li&gt;[Consumer Download\HTTP] Replaced wget download with a curl download&lt;/li&gt;
+&lt;li&gt;Add missing methods to ConsumerInterface&lt;/li&gt;
+&lt;li&gt;Set product under MIT License&lt;/li&gt;
+&lt;li&gt;Added PHP &amp;gt;= 5.4 as requirement&lt;/li&gt;
+&lt;li&gt;Refactored the AMQPConnection and AMQPMessage into a factory&lt;/li&gt;
+&lt;li&gt;Added PSR-2 as coding guideline standard&lt;/li&gt;
+&lt;li&gt;Added first unit tests for several components&lt;/li&gt;
+&lt;li&gt;Integrated Travis-CI as continuous integration environment&lt;/li&gt;
+&lt;li&gt;Integrated Versioneye for dependency checks&lt;/li&gt;
+&lt;li&gt;Integrated scrutinizer-ci for code quality analysis&lt;/li&gt;
+&lt;li&gt;[Consumer Crawler\Gerrit] Add message acknowledgement if no projects are available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;did-we-reach-the-goal-roadmap-from-the-v0-0-1-release&#34;&gt;Did we reach the goal / roadmap from the v0.0.1 release?&lt;/h2&gt;
+
+&lt;p&gt;In the release of version v0.0.1 we defined some goals for the next release (this one), but did we reach them? Lets check it:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;code quality&lt;/em&gt;: We have &lt;strong&gt;refactored&lt;/strong&gt; many lines of code and extracted them to seperate classes and introduced common &lt;strong&gt;design patterns&lt;/strong&gt; like &lt;strong&gt;Factory&lt;/strong&gt;. Further more we`ve introduced services like &lt;strong&gt;&lt;a href=&#34;https://scrutinizer-ci.com/&#34;&gt;scrutinizer&lt;/a&gt;&lt;/strong&gt; to get some &lt;strong&gt;numbers about quality&lt;/strong&gt;. Standards like &lt;strong&gt;&lt;a href=&#34;https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md&#34;&gt;PSR-2&lt;/a&gt;&lt;/strong&gt; were applied.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;testing&lt;/em&gt;: &lt;strong&gt;Unit tests&lt;/strong&gt; was introduced in this release. The &lt;strong&gt;code coverage&lt;/strong&gt; is not very high (&lt;strong&gt;18%&lt;/strong&gt;), but 18% are better than nothing! &lt;strong&gt;&lt;a href=&#34;https://travis-ci.org/&#34;&gt;TravisCI&lt;/a&gt;&lt;/strong&gt; was introduced to check the &lt;strong&gt;success&lt;/strong&gt; of the unit tests &lt;strong&gt;continuously&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;stability&lt;/em&gt;: Many &lt;strong&gt;bugs&lt;/strong&gt; were &lt;strong&gt;fixed&lt;/strong&gt; (e.g. Fatal error in GithubLinguist-Logging), external &lt;strong&gt;dependencies updated&lt;/strong&gt; (e.g. &lt;a href=&#34;https://github.com/Seldaek/monolog&#34;&gt;Monolog&lt;/a&gt; from 1.7 to 1.8), &lt;strong&gt;new components introduced&lt;/strong&gt; to make use of proven code (e.g. &lt;a href=&#34;http://symfony.com/doc/current/components/process.html&#34;&gt;symfony/process&lt;/a&gt; component) or &lt;strong&gt;more error checks&lt;/strong&gt; added to find some failure faster.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;flexibility&lt;/em&gt;: The product is now &lt;strong&gt;released under&lt;/strong&gt; the &lt;strong&gt;&lt;a href=&#34;http://opensource.org/licenses/MIT&#34;&gt;MIT license&lt;/a&gt;&lt;/strong&gt; as a permissive free software license. This product can now be official used in several environments (e.g. commercial). We have &lt;strong&gt;removed hardcoded dependencies&lt;/strong&gt; (e.g. TYPO3-Related names in Download\HTTP consumer) or made &lt;strong&gt;more attributes configurable&lt;/strong&gt; (e.g. &lt;a href=&#34;https://github.com/MetricsGrimoire/CVSAnalY&#34;&gt;CVSAnaly&lt;/a&gt; config) or &lt;strong&gt;support more RabbitMQ queue and exchange features&lt;/strong&gt; on consumer / producer level.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;documentation&lt;/em&gt;: There were &lt;strong&gt;several comments added&lt;/strong&gt; to the source code. Every class got a class header comment which &lt;strong&gt;describes&lt;/strong&gt; what &lt;strong&gt;the class is responsible&lt;/strong&gt; for. Every &lt;strong&gt;consumer&lt;/strong&gt; got the &lt;strong&gt;accepted message format&lt;/strong&gt; in the docs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In general this release and the goals was a success.
+One (important) goal was missed: Write more blog posts about the architecture and concepts of this project.
+This goal was missed due to the lack of time.
+Next to this goal during the development of TYPO3-Analytics another open source project CVSAnaly was improved a lot.
+&lt;a href=&#34;https://github.com/MetricsGrimoire/CVSAnalY/commits?author=andygrunwald&#34;&gt;See the commit history&lt;/a&gt;.
+Why? Because TYPO3-Analytics use this tool and we want to use more features of it ;)&lt;/p&gt;
+
+&lt;h2 id=&#34;roadmap-for-the-next-release&#34;&gt;Roadmap for the next release&lt;/h2&gt;
+
+&lt;p&gt;Currently there is no strict roadmap for the next release.
+But we will try to focus on some things:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Find a name&lt;/em&gt;: We are looking for a new name for quite some time (see &amp;ldquo;TYPO3-Analytics is looking for a new name - suggestions welcome!&amp;rdquo;). We try to find a new name and apply it to the ecosystem&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Make it more production ready&lt;/em&gt;: We try to make the product more production ready. How? Add some more error checks, add some checks if the system is production ready, add a proof of concept for a more easier deployment (e.g. on a amazon cloud). Ideas welcome!&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Prove the &amp;ldquo;productioness&amp;rdquo;&lt;/em&gt;: We want to start some small analysis of open source projects and create reports for it that other people can see how to use this tool and what is it good for and how amazing such small piece of code can be.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Spread the work&lt;/em&gt;: We want to communicate more (on barcamps, conferences, blogs) about it. We want to try to get more / the first external contributor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to see some features in it, contact me!&lt;/p&gt;
+
+&lt;p&gt;We know that this are hard goals.
+We try to reach as much as possible of them.
+If you want to support us, see the next chapter ;)&lt;/p&gt;
+
+&lt;h2 id=&#34;be-part-of-the-the-next-release&#34;&gt;Be part of the the next release&lt;/h2&gt;
+
+&lt;p&gt;We are looking for motivated contributors for this project.
+You do not have to be a programmer.
+We are looking for designers, frontend people, people for communication, people who got new ideas or want to push some new analysis.&lt;/p&gt;
+
+&lt;p&gt;If you do not have (spare) time for this, we are looking for sponsors as well.
+If you want to push some results, we would be proud to welcome you as a sponsor :)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;If you do not know how to contribute or how to get into it&lt;/strong&gt;: I &lt;strong&gt;will offer workshops (for free!)&lt;/strong&gt; for TYPO3-Analytics, &lt;strong&gt;how this works&lt;/strong&gt;, about the &lt;strong&gt;architecture&lt;/strong&gt;, about the &lt;strong&gt;goal&lt;/strong&gt;, about the &lt;strong&gt;motivation&lt;/strong&gt; or about &lt;strong&gt;stuff you are interested in&lt;/strong&gt;.
+I can offer rooms in Düsseldorf, Germany for it with internet connection for this.
+If you are interested, just ping me as well.&lt;/p&gt;
+
+&lt;p&gt;If you are interested just contact me via Twitter (&lt;a href=&#34;https://twitter.com/andygrunwald&#34;&gt;@andygrunwald&lt;/a&gt;) or by e-mail (&lt;a href=&#34;https://github.com/andygrunwald&#34;&gt;github profile&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The story about the topic of my bachelor thesis</title>
+      <link>http://andygrunwald.com/blog/the-story-about-the-topic-of-my-bachelor-thesis/</link>
+      <pubDate>Fri, 21 Mar 2014 13:01:50 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/the-story-about-the-topic-of-my-bachelor-thesis/</guid>
+      <description>&lt;p&gt;This post is about my bachelor thesis, a conference, cool people from spain, some academic paper, a lot of open source and how it can be if you let the flow runs :)&lt;/p&gt;
+
+&lt;p&gt;Everything starts in February 2013.
+At this time i studied business informatics next to my fulltime job at &lt;a href=&#34;http://www.wmdb.de/&#34;&gt;wmdb Systems GmbH&lt;/a&gt; as software developer (mainly as web developer for &lt;a href=&#34;http://typo3.org/&#34;&gt;TYPO3&lt;/a&gt; related projects).&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;The regular time of this course of studies is seven semester.
+In Februar 2013 i was in the 5th semester and every exam were passed.
+Just in (regular) time.&lt;/p&gt;
+
+&lt;p&gt;In the 7th semester i had to write my bachelor thesis.
+A scientific paper about a specific topic with ~40-60 pages.
+I was thinking a lot about a possible topic and i knew that i wanted to write something about software, software development and so on.
+But i did not had a specific topic in mind at this time.&lt;/p&gt;
+
+&lt;p&gt;At 2nd &amp;amp; 3rd February 2013 i visited &lt;a href=&#34;https://archive.fosdem.org/2013/&#34;&gt;FOSDEM&lt;/a&gt; in Brussels, Belgium for the first time with some of my friends.
+It was not far away from my hometown (~200 km), so it was a very short ride.
+And due to the big range of topics this conference sounds very interesting!&lt;/p&gt;
+
+&lt;p&gt;At the conference i attend many talks about different topics.
+But one talk was kind of special for me: &lt;a href=&#34;https://archive.fosdem.org/2013/schedule/event/do_you_want_to_measure_your_project/&#34;&gt;Do you want to measure your project?&lt;/a&gt; by &lt;a href=&#34;https://archive.fosdem.org/2013/schedule/speaker/jesus_m_gonzalez_barahona/&#34;&gt;Jesus M. Gonzalez-Barahona&lt;/a&gt; (&lt;a href=&#34;http://video.fosdem.org/2013/lightningtalks/Do_you_want_to_measure_your_project_.webm&#34;&gt;Video&lt;/a&gt;, &lt;a href=&#34;https://speakerdeck.com/jgbarah/do-you-want-to-measure-your-project&#34;&gt;Slides&lt;/a&gt;).
+Jesus talks about &lt;a href=&#34;http://metricsgrimoire.github.io/&#34;&gt;Metrics Grimoire&lt;/a&gt;, a toolset to crawl data which were produced during software development and &lt;a href=&#34;http://vizgrimoire.bitergia.org/&#34;&gt;Viz Grimoire&lt;/a&gt;, a toolset to visualize the received data.
+Some tools of MetricsGrimoire are &lt;a href=&#34;https://github.com/MetricsGrimoire/CVSAnalY&#34;&gt;CVSAnalY&lt;/a&gt; to crawl VCS (CVS, Subversion, Git, &amp;hellip;), &lt;a href=&#34;https://github.com/MetricsGrimoire/Bicho&#34;&gt;Bicho&lt;/a&gt; to extract data from Bugtracker (Jira, Redmine, Mantis, &amp;hellip;) or &lt;a href=&#34;https://github.com/MetricsGrimoire/MailingListStats&#34;&gt;MLStats&lt;/a&gt; to get email content from mailinglists.&lt;/p&gt;
+
+&lt;p&gt;After every conference i`m very motivated to start new things and have a deeper look in topics where i attend talks to.
+This was the same for FOSDEM.
+After the conference i had a deeper look at CVSAnaly.
+Downloaded it, installed it and started to crawl some repositories i know (e.g. &lt;a href=&#34;https://git.typo3.org/Packages/TYPO3.CMS.git&#34;&gt;TYPO3.CMS.git&lt;/a&gt;).
+16 days after the conference, i started to contribute to CVSAnaly with &lt;a href=&#34;https://github.com/MetricsGrimoire/CVSAnalY/commit/d69e569d2dff5fa8e98cc0f3c414071eaaf37984&#34;&gt;a small notice about the max_allowed_packet of MySQL&lt;/a&gt; for the first time.&lt;/p&gt;
+
+&lt;p&gt;At this time i didn`t wrote one line &lt;a href=&#34;http://www.python.org/&#34;&gt;Python&lt;/a&gt;.
+But every programmer has to &lt;a href=&#34;http://pragprog.com/the-pragmatic-programmer&#34;&gt;learn one language per year&lt;/a&gt;.
+So i started to learn Python and &lt;a href=&#34;https://github.com/MetricsGrimoire/CVSAnalY/commits?author=andygrunwald&#34;&gt;continued contribution to CVSAnaly&lt;/a&gt;.
+In the same time (&lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/commit/b44dd91e359ad55478919cc94278d26fffbdde03&#34;&gt;Apr 19, 2013&lt;/a&gt;) i started &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics&#34;&gt;TYPO3-Analytics&lt;/a&gt;, a project to analyze and visualize various data sources of the TYPO3 ecosystem based on open / standard APIs.
+CVSAnaly was integrated in this analysis suite.&lt;/p&gt;
+
+&lt;p&gt;From my point of view, the topic of analyze data which will be produced during software development was very interesting, because i`am a software developer.
+And how cool is it to get new information and knowledge from data you has produced?!? So i continued to develop TYPO3-Analytics and started to made some small researches about the &lt;a href=&#34;http://en.wikipedia.org/wiki/Mining_Software_Repositories&#34;&gt;Mining Software Repositories&lt;/a&gt; field.&lt;/p&gt;
+
+&lt;p&gt;Due to this enthusiasm, i found my topic for my bachelor thesis: Software Repository Mining - Concept and Potentials.
+In October / November 2013, i looked for a professor as an adviser, registered this topic at my university and started to research and writing this paper.
+Next to this i continued to work at TYPO3-Analytics and CVSAnaly.
+During this time i found a lot of interesting paper about programming topics.
+Here is a very small list of this paper (if you want more just ping me ;)):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cs.purdue.edu/sss/projects/dynjs/pldi275-richards.pdf&#34;&gt;An Analysis of the Dynamic Behavior of JavaScript Programs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://msr.uwaterloo.ca/msr2005/papers/28.pdf&#34;&gt;Analysis of Signature Change Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://mcis.polymtl.ca/publications/2013/msr_jojo.pdf&#34;&gt;Will My Patch Make It? And How Fast? Case Study on the Linux Kernel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At &lt;a href=&#34;https://fosdem.org/2014/&#34;&gt;1st &amp;amp; 2nd February 2014 the FOSDEM event&lt;/a&gt; takes places in Brussels, Belgium again.
+Due to the communication at the &lt;a href=&#34;https://lists.libresoft.es/listinfo/metrics-grimoire&#34;&gt;MetricsGrimoire mailinglist&lt;/a&gt; i knew that people from &lt;a href=&#34;http://bitergia.com/&#34;&gt;Bitergia&lt;/a&gt; (&lt;a href=&#34;https://twitter.com/jgbarah/&#34;&gt;@jgbarah&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/sanacl&#34;&gt;@sanacl&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dizquierdo&#34;&gt;@dizquierdo&lt;/a&gt;, etc.) were there as well.
+I &lt;a href=&#34;https://twitter.com/andygrunwald/status/428850540228132864&#34;&gt;twittered that i want to meet them&lt;/a&gt; and ~1 hour later we had a nice chat in the cafeteria of the university of Brussels.
+I showed and talked about the concepts of TYPO3-Analysis and got really positive feedback.&lt;/p&gt;
+
+&lt;p&gt;~13 month later (since FOSDEM 2013), many things happen.
+I learned new tools (CVSAnaly, Bicho, &amp;hellip;), a new programing language (Python), a lot of programing experience and concepts with new tools (TYPO3-Analytics, &lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt;, &lt;a href=&#34;http://supervisord.org/&#34;&gt;supervisord&lt;/a&gt;, &lt;a href=&#34;http://www.vagrantup.com/&#34;&gt;Vagrant&lt;/a&gt;, &lt;a href=&#34;http://www.getchef.com/chef/&#34;&gt;Chef&lt;/a&gt;&amp;hellip;), new nice and interesting people (Jesus, Luis, Daniel, &amp;hellip;), a cool business concept (Bitergia) and many new knowledge about a interesting research field i did not know before (Mining Software Repositories).
+And finally, i passed my Bachelor of Science degree today.&lt;/p&gt;
+
+&lt;p&gt;And the whole story might be another one if i had not visit FOSDEM in Februar 2013.
+A big and huge THANK YOU to all people who were part of this story (creator of tools, speaker, twitterer, irc chat attendees and other community member of the open source world).
+The whole time was a lot of fun.
+Of course there was stress, too.
+But the fun was much bigger.&lt;/p&gt;
+
+&lt;p&gt;And what is the conclusion of this story? I do not know.
+Maybe visit conferences and be part of an awesome community? I do not really know.
+But i can recommend this way to try it out! If you need help to get into it, because you do not know how: Ping me :)
+I will help you do get the right foot in!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>TYPO3-Analytics is looking for a new name - suggestions welcome!</title>
+      <link>http://andygrunwald.com/blog/typo3-analytics-is-looking-for-a-new-name---suggestions-welcome/</link>
+      <pubDate>Mon, 03 Mar 2014 13:06:41 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/typo3-analytics-is-looking-for-a-new-name---suggestions-welcome/</guid>
+      <description>&lt;p&gt;At &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/commit/b44dd91e359ad55478919cc94278d26fffbdde03&#34;&gt;Apr 19, 2013&lt;/a&gt; i started &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics&#34;&gt;TYPO3-Analytics&lt;/a&gt; to create a prototype or proof of concept to make my first steps in fields data mining / software repository mining, statistics and data visualisation.&lt;/p&gt;
+
+&lt;p&gt;At this time i got a big and deep knowledge of the &lt;a href=&#34;http://typo3.org/&#34;&gt;TYPO3&lt;/a&gt; ecosystem (code, people, tools, systems, processes, events, etc.) and the TYPO3 community manager &lt;a href=&#34;http://ben.vanten.de/&#34;&gt;ben van &amp;rsquo;t ende&lt;/a&gt; motivated me to create some metrics ;)
+So the first project was TYPO3.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;For a github repository you need a name.
+So i was in the situation to name my proof of concept.
+Due to the topics above and the missing flash of inspiration i chose the name &lt;em&gt;TYPO3-Analytics&lt;/em&gt;.
+From my point of view this name does not fit any more for some reasons:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The project aims to use public available information over centralized / standard ways (e.g. APIs). With this in mind it is possible to analyze various projects. Not only TYPO3. The prefix &lt;em&gt;TYPO3&lt;/em&gt; is not necessary and might be lead to confusion if e.g. &lt;a href=&#34;https://github.com/symfony/symfony&#34;&gt;Symfony2&lt;/a&gt; will be analyzed.&lt;/li&gt;
+&lt;li&gt;The complete project is much more than Analytics. It is about collect and receive data, produce new information and knowledge about this data with the usage of algoritms of data, web and text mining, visualize data and activity in various ways, motivate people to more open source works, say thank you by a wow effect of what a single person has achieved and much more.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This are only two reasons.
+But i think that this are two really good reasons to choose a new name for this baby.
+And this is the time where YOUR innovation comes in.
+We are looking for a new name with your help.
+Here are some keywords which might be related to this project:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;data&lt;/li&gt;
+&lt;li&gt;open source&lt;/li&gt;
+&lt;li&gt;people&lt;/li&gt;
+&lt;li&gt;contributer&lt;/li&gt;
+&lt;li&gt;data / web / text mining&lt;/li&gt;
+&lt;li&gt;software repository mining&lt;/li&gt;
+&lt;li&gt;metrics&lt;/li&gt;
+&lt;li&gt;statistics&lt;/li&gt;
+&lt;li&gt;visualisation&lt;/li&gt;
+&lt;li&gt;wow&lt;/li&gt;
+&lt;li&gt;motivation&lt;/li&gt;
+&lt;li&gt;information&lt;/li&gt;
+&lt;li&gt;knowledge&lt;/li&gt;
+&lt;li&gt;community&lt;/li&gt;
+&lt;li&gt;results&lt;/li&gt;
+&lt;li&gt;numbers&lt;/li&gt;
+&lt;li&gt;Your keyword here &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I tried various startup name generators to get some ideas for a new, cool and fancy or usable and logical, name.
+But i was not successful.
+Maybe you got some ideas?
+EVERY idea is welcome.
+New keywords are welcome, too.
+Please post your idea in the comments or send a tweet to my account &lt;a href=&#34;https://twitter.com/andygrunwald&#34;&gt;@andygrunwald&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The first idea came from &lt;a href=&#34;https://twitter.com/michadu_typo3&#34;&gt;Michael Oehlhof&lt;/a&gt;: &lt;em&gt;TYPO3 CoMet&lt;/em&gt; - CoMet means Community Metrics.
+Not bad this idea.
+But the TYPO3 prefix is already there and Community metrics are a bit to general.
+Or what do you think? Your opinion is welcome too.
+But anyway.
+Thanks for this idea Michael!&lt;/p&gt;
+
+&lt;p&gt;Thanks for your help!&lt;/p&gt;
+
+&lt;h3 id=&#34;update-at-2014-03-05&#34;&gt;Update at 2014-03-05&lt;/h3&gt;
+
+&lt;p&gt;Awesome! I received some name suggestions from different people.
+A &lt;strong&gt;big thanks&lt;/strong&gt; to this!&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;René Kerner (&lt;a href=&#34;https://twitter.com/rk3rn3r&#34;&gt;@rk3rn3r&lt;/a&gt;) &lt;a href=&#34;https://twitter.com/rk3rn3r/status/440604026368180224&#34;&gt;suggested&lt;/a&gt; &lt;em&gt;knoff-hoff&lt;/em&gt;, related to the german tv show &amp;ldquo;&lt;a href=&#34;http://de.wikipedia.org/wiki/Die_Knoff-Hoff-Show&#34;&gt;Die Knoff-Hoff-Show&lt;/a&gt;&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Christoph Moeller (&lt;a href=&#34;https://twitter.com/npublish_chris&#34;&gt;@npublish_chris&lt;/a&gt;) &lt;a href=&#34;https://twitter.com/npublish_chris/status/440969565472698368&#34;&gt;mentioned&lt;/a&gt; &lt;em&gt;Shunkan&lt;/em&gt;, japanase for &amp;ldquo;moment&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Mario Mainz (&lt;a href=&#34;https://twitter.com/m_mainz&#34;&gt;@m_mainz&lt;/a&gt;) raised some acronyms like &lt;em&gt;SWARM&lt;/em&gt; (SoftWAre Metrics) or &lt;em&gt;SWAN&lt;/em&gt; (SoftWare ANalytics), &lt;a href=&#34;https://twitter.com/m_mainz/status/440972275597066241&#34;&gt;lazy generated&lt;/a&gt; by an &lt;a href=&#34;http://acronymcreator.net/ace.py&#34;&gt;Acronym Creator&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Georg Ringer (&lt;a href=&#34;https://twitter.com/georg_ringer[&#34;&gt;@georg_ringer&lt;/a&gt;) &lt;a href=&#34;https://twitter.com/georg_ringer/status/441263913896644608&#34;&gt;twittered&lt;/a&gt; &lt;em&gt;quatrix&lt;/em&gt;, &lt;em&gt;quatrics&lt;/em&gt;, &lt;em&gt;metriquality&lt;/em&gt; and &lt;em&gt;metaqual&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>TYPO3-Analytics: Release of version v0.0.1</title>
+      <link>http://andygrunwald.com/blog/typo3-analytics-release-of-version-v0.0.1/</link>
+      <pubDate>Sat, 15 Feb 2014 13:10:00 +0200</pubDate>
+      
+      <guid>http://andygrunwald.com/blog/typo3-analytics-release-of-version-v0.0.1/</guid>
+      <description>&lt;p&gt;Today i tagged and released version &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.0.1&#34;&gt;v0.0.1&lt;/a&gt; of the project &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics&#34;&gt;TYPO3-Analytics&lt;/a&gt;.
+After &lt;a href=&#34;http://www.timeanddate.com/date/durationresult.html?d1=19&amp;amp;m1=4&amp;amp;y1=2013&amp;amp;d2=15&amp;amp;m2=2&amp;amp;y2=2014&amp;amp;ti=on&#34;&gt;303 days&lt;/a&gt; and &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/commits/v0.0.1&#34;&gt;144 commits&lt;/a&gt; later, i decided to make a &amp;ldquo;cut&amp;rdquo; and start a new version.&lt;/p&gt;
+
+&lt;p&gt;This version is a first (workable as far as i know) &amp;ldquo;proof of concept&amp;rdquo; for a repository mining platform to produce (community) metrics of various systems.
+The first example system is &lt;a href=&#34;http://typo3.org/&#34;&gt;TYPO3&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-does-this-version-include&#34;&gt;What does this version include?&lt;/h1&gt;
+
+&lt;p&gt;13 &lt;a href=&#34;http://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; consumer written in PHP:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download a git resource&lt;/li&gt;
+&lt;li&gt;Download a http resource&lt;/li&gt;
+&lt;li&gt;Extract a tar.gz archive&lt;/li&gt;
+&lt;li&gt;Crawl a Gerrit server&lt;/li&gt;
+&lt;li&gt;Crawl a single Gerrit project&lt;/li&gt;
+&lt;li&gt;Crawl a Gitweb site&lt;/li&gt;
+&lt;li&gt;Crawl a NNTP server&lt;/li&gt;
+&lt;li&gt;Crawl a single NNTP group&lt;/li&gt;
+&lt;li&gt;Analyze the filesize of a file&lt;/li&gt;
+&lt;li&gt;Analyze a VCS repository via CVSAnaly&lt;/li&gt;
+&lt;li&gt;Analyze PHP source code via PHPLoc&lt;/li&gt;
+&lt;li&gt;Analyze PHP source code via pDepend&lt;/li&gt;
+&lt;li&gt;Analyze used programming languages via github linguist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4 RabbitMQ producer written in PHP:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Messages to crawl a Gerrit code review system&lt;/li&gt;
+&lt;li&gt;Messages to download TYPO3 releases from get.typo3.org&lt;/li&gt;
+&lt;li&gt;Messages to crawl a Gitweb site&lt;/li&gt;
+&lt;li&gt;Messages to crawl a NNTP server&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This release can be downloaded from github: &lt;a href=&#34;https://github.com/andygrunwald/TYPO3-Analytics/releases/tag/v0.0.1&#34;&gt;v0.0.1: Release of version 0.0.1&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-will-be-tackled-in-the-next-version&#34;&gt;What will be tackled in the next version?&lt;/h1&gt;
+
+&lt;p&gt;There is no concrete roadmap for the next version(s).
+And i do not know which version number will it be.
+Maybe a new minor, maybe a new major version.
+The next version of TYPO3-Analytics will focus on:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;code quality&lt;/li&gt;
+&lt;li&gt;testing&lt;/li&gt;
+&lt;li&gt;stability&lt;/li&gt;
+&lt;li&gt;flexibility&lt;/li&gt;
+&lt;li&gt;documentation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This mean that i try to refactor some code, create unit and / or integration tests, try to tackle some bugs and &amp;ldquo;unused&amp;rdquo; concepts to make a better use of existing functionality (e.g. &lt;a href=&#34;http://www.rabbitmq.com/dlx.html&#34;&gt;RabbitMQ Dead Lettering&lt;/a&gt;) and to add more parameter to messages to decouple the exiting consumer from the proof of concept TYPO3.&lt;/p&gt;
+
+&lt;p&gt;Further more i want to write more documentation and some blog posts about the architecture and concept of this project. I got the hope to find more contributer or to find more people which are interested in it. Maybe it will help. We will see.&lt;/p&gt;
+
+&lt;p&gt;If you want to contribute and you do not know how, just contact me via Twitter (&lt;a href=&#34;https://twitter.com/andygrunwald&#34;&gt;@andygrunwald&lt;/a&gt;) or by e-mail (&lt;a href=&#34;https://github.com/andygrunwald&#34;&gt;github profile&lt;/a&gt;).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
